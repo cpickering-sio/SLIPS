@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# SLIPS repo — CODE ONLY. Never commit raw imagery, video, or large binaries.
+# ---------------------------------------------------------------------------
+
+# Imagery & raw camera files
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.orf
+*.ORF
+*.cr3
+*.CR3
+*.thm
+*.THM
+*.nef
+*.dng
+
+# Video
+*.mp4
+*.mov
+*.avi
+
+# Large / model / archive binaries
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.xlsx
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+*.pyc
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Keep small vector figures and derived CSVs that ARE tracked:
+# (svg/pdf figures and data/*.csv are added explicitly, not ignored)
+
+# Exception: keep ONE sample RAW frame for the TG-6 hardware docs
+!hardware/tg6/samples/P8210005.ORF

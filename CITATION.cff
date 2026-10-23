@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "SLIPS: analysis and processing pipeline for anti-biofouling camera-housing experiment"
+authors:
+  - family-names: Pickering
+    given-names: Corinne
+    affiliation: "Scripps Institution of Oceanography, UC San Diego"
+    email: cpickering@ucsd.edu
+version: "1.0.0"
+date-released: "2026-10-23"
+license: MIT
+repository-code: "https://github.com/cpickering-sio/SLIPS"
+# doi: 10.5281/zenodo.XXXXXXX   # add after first Zenodo release
+keywords:
+  - biofouling
+  - SLIPS
+  - optical clarity
+  - image analysis
+  - marine ecology
